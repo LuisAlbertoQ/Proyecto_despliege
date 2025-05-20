@@ -170,11 +170,11 @@
 		</dependency>
 
 		<!--  Para Pruebas Agregado-->
-		<!--<dependency>
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
@@ -186,6 +186,24 @@
 			<scope>test</scope>
 		</dependency>
 		<!--  Fin Pruebas Agregado-->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>5.3.1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Jackson -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+		<!-- Fin Pruebas Agregado-->
+		<!-- Para Pruebas de Integracion WebTestClient-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 
